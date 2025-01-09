@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <img src="Bukit.Asam.jpeg" width="200px">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIO DATA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div>
+        <form action="https://api.web3forms.com/submit"method="post" class="card-left" autocomplete="off">
+            <div class="container">
+                <h6 class="section-title">I. IDENTITAS DIRI</h6>
+                <table class="table table-bordered">
+                    <tbody>
+                        <tr>
+                            <td>1.</td>
+                            <td>Nama Lengkap</td>
+                            <td>:</td>
+                            <td><input type="text" name="full_name" class="form-control" required></td>
+                        </tr>
+                        <tr>
+                            <td>2.</td>
+                            <td>Tempat/Tanggal Lahir</td>
+                            <td>:</td>
+                            <td><input type="text" name="birthplace_date" class="form-control" required></td>
+                        </tr>
+                        <tr>
+                            <td>3.</td>
+                            <td>Jenis Kelamin</td>
+                            <td>:</td>
+                            <td>
+                                <select name="gender" class="form-control" required>
+                                    <option value="">Select</option>
+                                    <option value="Laki-laki">Laki-laki</option>
+                                    <option value="Perempuan">Perempuan</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>4.</td>
+                            <td>Alamat</td>
+                            <td>:</td>
+                            <td><input type="text" name="address" class="form-control" required></td>
+                        </tr>
+                        <tr>
+                            <td>5.</td>
+                            <td>Nomor Kontak</td>
+                            <td>:</td>
+                            <td>Handphone: <input type="text" name="phone" class="form-control" required><br> Ekstensi: <input type="text" name="extension" class="form-control"></td>
+                        </tr>
+                        <tr>
+                            <td>6.</td>
+                            <td>Status Pernikahan</td>
+                            <td>:</td>
+                            <td><input type="text" name="marital_status" class="form-control" required></td>
+                        </tr>
+                        <tr>
+                            <td>7.</td>
+                            <td>Agama</td>
+                            <td>:</td>
+                            <td><input type="text" name="religion" class="form-control" required></td>
+                        </tr>
+                        <tr>
+                            <td>8.</td>
+                            <td>NIP</td>
+                            <td>:</td>
+                            <td><input type="text" name="nip" class="form-control" required></td>
+                        </tr>
+                        <tr>
+                            <td>9.</td>
+                                <td>Jabatan saat ini</td>
+                                <td>:</td>
+                                <td><input type="text" name="current_position" class="form-control" required></td>
+                            </tr>
+                            <tr>
+                                <td>10.</td>
+                                <td>Jenjang/PP</td>
+                                <td>:</td>
+                                <td><input type="text" name="level_pp" class="form-control" required></td>
+                            </tr>
+                            <tr>
+                                <td>11.</td>
+                                <td>Nama Atasan Langsung</td>
+                                <td>:</td>
+                                <td><input type="text" name="supervisor_name" class="form-control" required></td>
+                            </tr>
+                            <tr>
+                                <td>12.</td>
+                                <td>Jabatan Atasan Langsung</td>
+                                <td>:</td>
+                                <td><input type="text" name="supervisor_position" class="form-control" required></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="container">
+                    <div class="photo-box">
+                        <input type="file" name="photo" class="form-control" required>
+                    </div>
+                </div>
+            </div>
+
+            <h6 class="container">II. LINGKUNGAN KELUARGA</h6>
+            <p>Susunan Keluarga (Istri / Suami dan Anak-anak)</p>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>L/P</th>
+                        <th>Tempat/Tgl Lahir</th>
+                        <th>Pendidikan</th>
+                        <th>Pekerjaan</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Istri/Suami</td>
+                        <td><input type="text" name="spouse_gender" class="form-control"></td>
+                        <td><input type="text" name="spouse_birthplace_date" class="form-control"></td>
+                        <td><input type="text" name="spouse_education" class="form-control"></td>
+                        <td><input type="text" name="spouse_occupation" class="form-control"></td>
+                    </tr>
+                    <tr>
+                        <td>Anak 1</td>
+                        <td><input type="text" name="child1_gender" class="form-control"></td>
+                        <td><input type="text" name="child1_birthplace_date" class="form-control"></td>
+                        <td><input type="text" name="child1_education" class="form-control"></td>
+                        <td><input type="text" name="child1_occupation" class="form-control"></td>
+                    </tr>
+                    <tr>
+                        <td>Anak 2</td>
+                        <td><input type="text" name="child2_gender" class="form-control"></td>
+                        <td><input type="text" name="child2_birthplace_date" class="form-control"></td>
+                        <td><input type="text" name="child2_education" class="form-control"></td>
+                        <td><input type="text" name="child2_occupation" class="form-control"></td>
+                    </tr>
+                    <tr>
+                        <td>Anak 3</td>
+                        <td><input type="text" name="child3_gender" class="form-control"></td>
+                        <td><input type="text" name="child3_birthplace_date" class="form-control"></td>
+                        <td><input type="text" name="child3_education" class="form-control"></td>
+                        <td><input type="text" name="child3_occupation" class="form-control"></td>
+                    </tr>
+                    <tr>
+                        <td>Anak 4</td>
+                        <td><input type="text" name="child4_gender" class="form-control"></td>
+                        <td><input type="text" name="child4_birthplace_date" class="form-control"></td>
+                        <td><input type="text" name="child4_education" class="form-control"></td>
+                        <td><input type="text" name="child4_occupation" class="form-control"></td>
+                    </tr>
+                    <tr>
+                        <td>Anak 5</td>
+                        <td><input type="text" name="child5_gender" class="form-control"></td>
+                        <td><input type="text" name="child5_birthplace_date" class="form-control"></td>
+                        <td><input type="text" name="child5_education" class="form-control"></td>
+                        <td><input type="text" name="child5_occupation" class="form-control"></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h6 class="container">III. RIWAYAT PENDIDIKAN</h6>
+            <p>1. Pendidikan Formal</p>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Nama Sekolah</th>
+                        <th>Jurusan</th>
+                        <th>Tempat</th>
+                        <th>Thn s/d Thn</th>
+                        <th>Keterangan</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="text" name="school_name1" class="form-control"></td>
+                        <td><input type="text" name="major1" class="form-control"></td>
+                        <td><input type="text" name="place1" class="form-control"></td>
+                        <td><input type="text" name="years1" class="form-control"></td>
+                        <td><input type="text" name="remarks1" class="form-control"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="school_name2" class="form-control"></td>
+                        <td><input type="text" name="major2" class="form-control"></td>
+                        <td><input type="text" name="place2" class="form-control"></td>
+                        <td><input type="text" name="years2" class="form-control"></td>
+                        <td><input type="text" name="remarks2" class="form-control"></td>
+                    </tr>
+                    <!-- Additional rows can be added here as needed -->
+                </tbody>
+            </table>
+
+            <h6 class="container">IV. RIWAYAT PEKERJAAN</h6>
+            <p>1. Uraikan dengan singkat pekerjaan Anda selama ini (dimulai dari posisi terakhir):</p>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>No.</th>
+                        <th>Jabatan</th>
+                        <th>Bln/Thn s/d Bln/Thn</th>
+                        <th>Perusahaan</th>
+                        <th>Bagian/Dept.</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1.</td>
+                        <td><input type="text" name="position1" class="form-control"></td>
+                        <td><input type="text" name="years1" class="form-control"></td>
+                        <td><input type="text" name="company1" class="form-control"></td>
+                        <td><input type="text" name="department1" class="form-control"></td>
+                    </tr>
+                    <tr>
+                        <td>2.</td>
+                        <td><input type="text" name="position2" class="form-control"></td>
+                        <td><input type="text" name="years2" class="form-control"></td>
+                        <td><input type="text" name="company2" class="form-control"></td>
+                        <td><input type="text" name="department2" class="form-control"></td>
+                    </tr>
+                    <!-- Additional rows can be added here as needed -->
+                </tbody>
+            </table>
+            <h6 class="container">V. DATA PEKERJAAN</h6>
+            <p>1. Berapa orang bawahan langsung Anda di jabatan sekarang? Di bagian apa dan sebagai apa mereka bekerja? ...... orang.</p>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Nama</th>
+                        <th>Bagian</th>
+                        <th>Peran/jabatan</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="text" name="subordinate1_name" class="form-control"></td>
+                        <td><input type="text" name="subordinate1_department" class="form-control"></td>
+                        <td><input type="text" name="subordinate1_role" class="form-control"></td>
+                    </tr>
+                    <!-- Additional rows can be added as needed -->
+                </tbody>
+            </table>
+
+            <div>
+                <h2>send email</h2>
+                <hr>
+            </div>
+            <input type="hidden" name="access_key" value="dfd38d14-9330-47f6-84e9-d5d8875c7751">
+            <input type="text" name="name" placeholder="Nama Anda" class="contact-inputs" required>
+            <input type="email" name="email" placeholder="Masukan Email Anda" class="contact-inputs" required>
+            <textarea name="message" placeholder="Berikan Pesan Anda" class="contact-inputs"></textarea>
+            <button type="submit">submit</button>
+        </form>                                                                                    
+        </div>
+
+    </div>
+</body>
+</html> 
